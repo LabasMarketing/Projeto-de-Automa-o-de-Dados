@@ -122,7 +122,7 @@ Code in JavaScript1      ← reúne e separa em funcionários e produtos
     ↓
     Produtos3 - Write File to Disk
 ```
-
+<img width="1573" height="471" alt="n8n_geral" src="https://github.com/user-attachments/assets/f671c42b-e36c-44ca-a394-7f499f167c48" />
 
 ---
 
@@ -418,6 +418,8 @@ Cada caminho é totalmente independente. Os dados não se misturam em nenhum mom
 
 Existe um arquivo `modelo.xlsx` que serve como **base visual** para o relatório final.
 
+<img width="634" height="554" alt="image" src="https://github.com/user-attachments/assets/a81a4718-498f-4b3b-83d0-f0689ce8f5df" />
+
 O modelo define:
 
 - cabeçalhos das colunas
@@ -431,6 +433,8 @@ Um script Python usa esse modelo para gerar o arquivo `relatorio_final.xlsx`, qu
 - `Funcionarios` — com todos os registros de colaboradores
 - `Produtos` — com todos os registros de produtos
 
+<img width="1080" height="1018" alt="image" src="https://github.com/user-attachments/assets/c610c94d-3891-4e26-82e9-dc5e512dc8ea" />
+
 Esse arquivo é o que vai direto para o Power BI.
 
 ---
@@ -438,6 +442,8 @@ Esse arquivo é o que vai direto para o Power BI.
 ### 📌 7. Dashboard no Power BI
 
 O arquivo `relatorio_final.xlsx` foi importado como fonte de dados no Power BI.
+
+<img width="1402" height="767" alt="image" src="https://github.com/user-attachments/assets/4fb430f7-a946-416c-8e50-f87488c23942" />
 
 O dashboard contém:
 
