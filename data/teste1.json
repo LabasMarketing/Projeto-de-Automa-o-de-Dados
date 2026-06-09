@@ -1,0 +1,759 @@
+  {
+    "empresa": "TechNova Solutions",
+    "cnpj": "83.705.508/0001-21",
+    "fundacao": "2022-07-10",
+    "sede": {
+      "cidade": "Recife",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "funcionarios": [
+      {
+        "id": 1,
+        "nome": "Larissa Silva",
+        "cargo": "Gerente de Marketing",
+        "departamento": "Marketing",
+        "salario": 5472.93,
+        "ativo": true
+      },
+      {
+        "id": 2,
+        "nome": "Bruno Oliveira",
+        "cargo": "Analista de Dados",
+        "departamento": "Design",
+        "salario": 6649.62,
+        "ativo": false
+      },
+      {
+        "id": 3,
+        "nome": "Mariana Pereira",
+        "cargo": "Engenheiro de Software",
+        "departamento": "Marketing",
+        "salario": 10725.27,
+        "ativo": false
+      },
+      {
+        "id": 4,
+        "nome": "Rafael Costa",
+        "cargo": "Desenvolvedor Front-end",
+        "departamento": "Tecnologia",
+        "salario": 9000.0,
+        "ativo": true
+      },
+      {
+        "id": 5,
+        "nome": "Isabela Fernandes",
+        "cargo": "Analista Financeiro",
+        "departamento": "Financeiro",
+        "salario": 6800.25,
+        "ativo": true
+      },
+      {
+        "id": 6,
+        "nome": "Thiago Menezes",
+        "cargo": "Gerente de Projetos",
+        "departamento": "Operações",
+        "salario": 11500.0,
+        "ativo": true
+      },
+      {
+        "id": 7,
+        "nome": "Sofia Lima",
+        "cargo": "UX Designer",
+        "departamento": "Design",
+        "salario": 7200.0,
+        "ativo": true
+      },
+      {
+        "id": 8,
+        "nome": "Mateus Alves",
+        "cargo": "Analista de Suporte",
+        "departamento": "TI",
+        "salario": 5100.0,
+        "ativo": true
+      },
+      {
+        "id": 9,
+        "nome": "Camila Rocha",
+        "cargo": "Coordenadora de Vendas",
+        "departamento": "Vendas",
+        "salario": 8200.5,
+        "ativo": true
+      },
+      {
+        "id": 10,
+        "nome": "Gustavo Martins",
+        "cargo": "Analista de QA",
+        "departamento": "Tecnologia",
+        "salario": 6300.0,
+        "ativo": true
+      },
+      {
+        "id": 11,
+        "nome": "Fernanda Sousa",
+        "cargo": "Especialista em SEO",
+        "departamento": "Marketing",
+        "salario": 5900.0,
+        "ativo": true
+      },
+      {
+        "id": 12,
+        "nome": "Eduardo Santos",
+        "cargo": "Arquiteto de Soluções",
+        "departamento": "Tecnologia",
+        "salario": 13200.75,
+        "ativo": true
+      },
+      {
+        "id": 13,
+        "nome": "Patrícia Nogueira",
+        "cargo": "Analista de RH",
+        "departamento": "Recursos Humanos",
+        "salario": 5800.0,
+        "ativo": false
+      },
+      {
+        "id": 14,
+        "nome": "Lucas Almeida",
+        "cargo": "Engenheiro de DevOps",
+        "departamento": "Tecnologia",
+        "salario": 10450.0,
+        "ativo": true
+      },
+      {
+        "id": 15,
+        "nome": "Caroline Pereira",
+        "cargo": "Consultora de Conteúdo",
+        "departamento": "Marketing",
+        "salario": 6400.0,
+        "ativo": true
+      },
+      {
+        "id": 16,
+        "nome": "Pedro Silva",
+        "cargo": "Analista de BI",
+        "departamento": "Inteligência de Negócios",
+        "salario": 7200.9,
+        "ativo": true
+      },
+      {
+        "id": 17,
+        "nome": "Mariana Castro",
+        "cargo": "Coordenadora de Projetos",
+        "departamento": "Operações",
+        "salario": 9800.25,
+        "ativo": true
+      },
+      {
+        "id": 18,
+        "nome": "Diego Santana",
+        "cargo": "Especialista em Segurança",
+        "departamento": "TI",
+        "salario": 11300.0,
+        "ativo": true
+      },
+      {
+        "id": 19,
+        "nome": "Natália Gomes",
+        "cargo": "Analista de Customer Success",
+        "departamento": "Sucesso do Cliente",
+        "salario": 6900.0,
+        "ativo": true
+      },
+      {
+        "id": 20,
+        "nome": "Rafael Barros",
+        "cargo": "Engenheiro de Dados",
+        "departamento": "Tecnologia",
+        "salario": 11850.0,
+        "ativo": true
+      },
+      {
+        "id": 21,
+        "nome": "Aline Figueiredo",
+        "cargo": "Analista de Produto",
+        "departamento": "Produto",
+        "salario": 7900.3,
+        "ativo": true
+      },
+      {
+        "id": 22,
+        "nome": "Bruna Andrade",
+        "cargo": "Especialista em Atendimento",
+        "departamento": "Suporte",
+        "salario": 5600.0,
+        "ativo": true
+      },
+      {
+        "id": 23,
+        "nome": "Vitor Henrique",
+        "cargo": "Gerente Comercial",
+        "departamento": "Comercial",
+        "salario": 9800.0,
+        "ativo": true
+      }
+    ],
+    "produtos": [
+      {
+        "id": "1",
+        "nome": "ProdTech 24",
+        "tipo": "SaaS",
+        "preco_mensal": 978.82,
+        "usuarios_ativos": 4404,
+        "dia": 15,
+        "mês": "Junho",
+        "ano": 2024
+      },
+      {
+        "id": "2",
+        "nome": "ProdTech 3",
+        "tipo": "PaaS",
+        "preco_mensal": 798.0,
+        "usuarios_ativos": 4303,
+        "dia": 23,
+        "mês": "Junho",
+        "ano": 2024
+      },
+      {
+        "id": "3",
+        "nome": "ProdTech 48",
+        "tipo": "IaaS",
+        "preco_mensal": 922.68,
+        "usuarios_ativos": 3746,
+        "dia": 10,
+        "mês": "Maio",
+        "ano": 2023
+      },
+      {
+        "id": "4",
+        "nome": "CloudSuite",
+        "tipo": "On-Premise",
+        "preco_mensal": 250.0,
+        "usuarios_ativos": 1200,
+        "dia": 8,
+        "mês": "Janeiro",
+        "ano": 2024
+      },
+      {
+        "id": "5",
+        "nome": "DataFlow",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 420.0,
+        "usuarios_ativos": 820,
+        "dia": 12,
+        "mês": "Fevereiro",
+        "ano": 2023
+      },
+      {
+        "id": "6",
+        "nome": "SecureGate",
+        "tipo": "PaaS",
+        "preco_mensal": 580.5,
+        "usuarios_ativos": 940,
+        "dia": 25,
+        "mês": "Março",
+        "ano": 2024
+      },
+      {
+        "id": "7",
+        "nome": "MobileTrack",
+        "tipo": "IaaS",
+        "preco_mensal": 120.0,
+        "usuarios_ativos": 310,
+        "dia": 3,
+        "mês": "Abril",
+        "ano": 2022
+      },
+      {
+        "id": "8",
+        "nome": "Insight AI",
+        "tipo": "On-Premise",
+        "preco_mensal": 890.0,
+        "usuarios_ativos": 1520,
+        "dia": 19,
+        "mês": "Julho",
+        "ano": 2023
+      },
+      {
+        "id": "9",
+        "nome": "Warehouse Pro",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 660.0,
+        "usuarios_ativos": 560,
+        "dia": 7,
+        "mês": "Agosto",
+        "ano": 2024
+      },
+      {
+        "id": "10",
+        "nome": "VoiceConnect",
+        "tipo": "SaaS",
+        "preco_mensal": 210.0,
+        "usuarios_ativos": 430,
+        "dia": 14,
+        "mês": "Setembro",
+        "ano": 2023
+      },
+      {
+        "id": "11",
+        "nome": "PaymentHub",
+        "tipo": "PaaS",
+        "preco_mensal": 540.0,
+        "usuarios_ativos": 980,
+        "dia": 21,
+        "mês": "Outubro",
+        "ano": 2024
+      },
+      {
+        "id": "12",
+        "nome": "AnalyticsPro",
+        "tipo": "IaaS",
+        "preco_mensal": 780.0,
+        "usuarios_ativos": 1120,
+        "dia": 5,
+        "mês": "Novembro",
+        "ano": 2023
+      },
+      {
+        "id": "13",
+        "nome": "CRM Central",
+        "tipo": "On-Premise",
+        "preco_mensal": 360.0,
+        "usuarios_ativos": 760,
+        "dia": 18,
+        "mês": "Dezembro",
+        "ano": 2024
+      },
+      {
+        "id": "14",
+        "nome": "VirtualDesk",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 470.0,
+        "usuarios_ativos": 410,
+        "dia": 9,
+        "mês": "Janeiro",
+        "ano": 2023
+      },
+      {
+        "id": "15",
+        "nome": "EducaCloud",
+        "tipo": "SaaS",
+        "preco_mensal": 320.0,
+        "usuarios_ativos": 530,
+        "dia": 27,
+        "mês": "Fevereiro",
+        "ano": 2024
+      },
+      {
+        "id": "16",
+        "nome": "LogiTrack",
+        "tipo": "PaaS",
+        "preco_mensal": 450.0,
+        "usuarios_ativos": 290,
+        "dia": 11,
+        "mês": "Março",
+        "ano": 2023
+      },
+      {
+        "id": "17",
+        "nome": "HealthLink",
+        "tipo": "IaaS",
+        "preco_mensal": 710.0,
+        "usuarios_ativos": 660,
+        "dia": 6,
+        "mês": "Abril",
+        "ano": 2024
+      },
+      {
+        "id": "18",
+        "nome": "RetailMax",
+        "tipo": "On-Premise",
+        "preco_mensal": 595.0,
+        "usuarios_ativos": 370,
+        "dia": 22,
+        "mês": "Maio",
+        "ano": 2023
+      },
+      {
+        "id": "19",
+        "nome": "FleetOne",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 430.0,
+        "usuarios_ativos": 605,
+        "dia": 13,
+        "mês": "Junho",
+        "ano": 2024
+      },
+      {
+        "id": "20",
+        "nome": "SurveyNow",
+        "tipo": "SaaS",
+        "preco_mensal": 190.0,
+        "usuarios_ativos": 210,
+        "dia": 2,
+        "mês": "Julho",
+        "ano": 2023
+      },
+      {
+        "id": "21",
+        "nome": "AdOptimize",
+        "tipo": "PaaS",
+        "preco_mensal": 640.0,
+        "usuarios_ativos": 330,
+        "dia": 16,
+        "mês": "Agosto",
+        "ano": 2024
+      },
+      {
+        "id": "22",
+        "nome": "EventManager",
+        "tipo": "IaaS",
+        "preco_mensal": 280.0,
+        "usuarios_ativos": 450,
+        "dia": 24,
+        "mês": "Setembro",
+        "ano": 2023
+      },
+      {
+        "id": "23",
+        "nome": "DocuSign Pro",
+        "tipo": "On-Premise",
+        "preco_mensal": 340.0,
+        "usuarios_ativos": 790,
+        "dia": 4,
+        "mês": "Outubro",
+        "ano": 2024
+      },
+      {
+        "id": "24",
+        "nome": "ChatAssist",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 510.0,
+        "usuarios_ativos": 720,
+        "dia": 17,
+        "mês": "Novembro",
+        "ano": 2023
+      },
+      {
+        "id": "25",
+        "nome": "SecureVault",
+        "tipo": "SaaS",
+        "preco_mensal": 880.0,
+        "usuarios_ativos": 260,
+        "dia": 28,
+        "mês": "Dezembro",
+        "ano": 2024
+      },
+      {
+        "id": "26",
+        "nome": "RecruitSmart",
+        "tipo": "PaaS",
+        "preco_mensal": 300.0,
+        "usuarios_ativos": 560,
+        "dia": 1,
+        "mês": "Janeiro",
+        "ano": 2023
+      },
+      {
+        "id": "27",
+        "nome": "InvoicePro",
+        "tipo": "IaaS",
+        "preco_mensal": 260.0,
+        "usuarios_ativos": 680,
+        "dia": 20,
+        "mês": "Fevereiro",
+        "ano": 2024
+      },
+      {
+        "id": "28",
+        "nome": "MeetingSuite",
+        "tipo": "On-Premise",
+        "preco_mensal": 420.0,
+        "usuarios_ativos": 350,
+        "dia": 8,
+        "mês": "Março",
+        "ano": 2023
+      },
+      {
+        "id": "29",
+        "nome": "ContentFlow",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 530.0,
+        "usuarios_ativos": 275,
+        "dia": 26,
+        "mês": "Abril",
+        "ano": 2024
+      },
+      {
+        "id": "30",
+        "nome": "LearningHub",
+        "tipo": "SaaS",
+        "preco_mensal": 390.0,
+        "usuarios_ativos": 610,
+        "dia": 12,
+        "mês": "Maio",
+        "ano": 2023
+      },
+      {
+        "id": "31",
+        "nome": "MediaCloud",
+        "tipo": "PaaS",
+        "preco_mensal": 470.0,
+        "usuarios_ativos": 520,
+        "dia": 30,
+        "mês": "Junho",
+        "ano": 2024
+      },
+      {
+        "id": "32",
+        "nome": "Analytics Edge",
+        "tipo": "IaaS",
+        "preco_mensal": 660.0,
+        "usuarios_ativos": 340,
+        "dia": 19,
+        "mês": "Julho",
+        "ano": 2023
+      },
+      {
+        "id": "33",
+        "nome": "Support360",
+        "tipo": "On-Premise",
+        "preco_mensal": 310.0,
+        "usuarios_ativos": 620,
+        "dia": 11,
+        "mês": "Agosto",
+        "ano": 2024
+      },
+      {
+        "id": "34",
+        "nome": "EnergyWatch",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 475.0,
+        "usuarios_ativos": 225,
+        "dia": 23,
+        "mês": "Setembro",
+        "ano": 2023
+      },
+      {
+        "id": "35",
+        "nome": "CompliancePro",
+        "tipo": "SaaS",
+        "preco_mensal": 590.0,
+        "usuarios_ativos": 780,
+        "dia": 6,
+        "mês": "Outubro",
+        "ano": 2024
+      },
+      {
+        "id": "36",
+        "nome": "TravelPlanner",
+        "tipo": "PaaS",
+        "preco_mensal": 340.0,
+        "usuarios_ativos": 490,
+        "dia": 15,
+        "mês": "Novembro",
+        "ano": 2023
+      },
+      {
+        "id": "37",
+        "nome": "DesignStudio",
+        "tipo": "IaaS",
+        "preco_mensal": 520.0,
+        "usuarios_ativos": 285,
+        "dia": 29,
+        "mês": "Dezembro",
+        "ano": 2024
+      },
+      {
+        "id": "38",
+        "nome": "FleetSmart",
+        "tipo": "On-Premise",
+        "preco_mensal": 410.0,
+        "usuarios_ativos": 635,
+        "dia": 9,
+        "mês": "Janeiro",
+        "ano": 2024
+      },
+      {
+        "id": "39",
+        "nome": "LegalWorks",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 675.0,
+        "usuarios_ativos": 310,
+        "dia": 25,
+        "mês": "Fevereiro",
+        "ano": 2023
+      },
+      {
+        "id": "40",
+        "nome": "InvoiceLink",
+        "tipo": "SaaS",
+        "preco_mensal": 280.0,
+        "usuarios_ativos": 740,
+        "dia": 14,
+        "mês": "Março",
+        "ano": 2024
+      },
+      {
+        "id": "41",
+        "nome": "BrandVoice",
+        "tipo": "PaaS",
+        "preco_mensal": 350.0,
+        "usuarios_ativos": 230,
+        "dia": 10,
+        "mês": "Abril",
+        "ano": 2023
+      },
+      {
+        "id": "42",
+        "nome": "OpsMonitor",
+        "tipo": "IaaS",
+        "preco_mensal": 550.0,
+        "usuarios_ativos": 395,
+        "dia": 22,
+        "mês": "Maio",
+        "ano": 2024
+      },
+      {
+        "id": "43",
+        "nome": "HR Portal",
+        "tipo": "On-Premise",
+        "preco_mensal": 260.0,
+        "usuarios_ativos": 560,
+        "dia": 3,
+        "mês": "Junho",
+        "ano": 2023
+      },
+      {
+        "id": "44",
+        "nome": "SmartReport",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 580.0,
+        "usuarios_ativos": 320,
+        "dia": 31,
+        "mês": "Julho",
+        "ano": 2024
+      },
+      {
+        "id": "45",
+        "nome": "RetailCloud",
+        "tipo": "SaaS",
+        "preco_mensal": 470.0,
+        "usuarios_ativos": 690,
+        "dia": 18,
+        "mês": "Agosto",
+        "ano": 2023
+      },
+      {
+        "id": "46",
+        "nome": "ProjectPulse",
+        "tipo": "PaaS",
+        "preco_mensal": 425.0,
+        "usuarios_ativos": 415,
+        "dia": 7,
+        "mês": "Setembro",
+        "ano": 2024
+      },
+      {
+        "id": "47",
+        "nome": "SecureAnalytics",
+        "tipo": "IaaS",
+        "preco_mensal": 810.0,
+        "usuarios_ativos": 470,
+        "dia": 27,
+        "mês": "Outubro",
+        "ano": 2023
+      },
+      {
+        "id": "48",
+        "nome": "CampaignPro",
+        "tipo": "On-Premise",
+        "preco_mensal": 390.0,
+        "usuarios_ativos": 305,
+        "dia": 20,
+        "mês": "Novembro",
+        "ano": 2024
+      },
+      {
+        "id": "49",
+        "nome": "SmartForms",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 330.0,
+        "usuarios_ativos": 280,
+        "dia": 2,
+        "mês": "Dezembro",
+        "ano": 2023
+      },
+      {
+        "id": "50",
+        "nome": "PaymentLink",
+        "tipo": "SaaS",
+        "preco_mensal": 290.0,
+        "usuarios_ativos": 540,
+        "dia": 13,
+        "mês": "Janeiro",
+        "ano": 2024
+      },
+      {
+        "id": "51",
+        "nome": "AnalyticsVault",
+        "tipo": "PaaS",
+        "preco_mensal": 720.0,
+        "usuarios_ativos": 315,
+        "dia": 28,
+        "mês": "Fevereiro",
+        "ano": 2023
+      },
+      {
+        "id": "52",
+        "nome": "HelpDesk Plus",
+        "tipo": "IaaS",
+        "preco_mensal": 345.0,
+        "usuarios_ativos": 485,
+        "dia": 16,
+        "mês": "Março",
+        "ano": 2024
+      },
+      {
+        "id": "53",
+        "nome": "CampaignFlow",
+        "tipo": "On-Premise",
+        "preco_mensal": 410.0,
+        "usuarios_ativos": 520,
+        "dia": 24,
+        "mês": "Abril",
+        "ano": 2023
+      },
+      {
+        "id": "54",
+        "nome": "DevOps Assist",
+        "tipo": "Cloud Computing",
+        "preco_mensal": 620.0,
+        "usuarios_ativos": 255,
+        "dia": 5,
+        "mês": "Maio",
+        "ano": 2024
+      },
+      {
+        "id": "55",
+        "nome": "SalesBoost",
+        "tipo": "SaaS",
+        "preco_mensal": 520.0,
+        "usuarios_ativos": 650,
+        "dia": 21,
+        "mês": "Junho",
+        "ano": 2023
+      },
+      {
+        "id": "56",
+        "nome": "SupportFlow",
+        "tipo": "PaaS",
+        "preco_mensal": 355.0,
+        "usuarios_ativos": 475,
+        "dia": 17,
+        "mês": "Julho",
+        "ano": 2024
+      }
+    ],
+    "receita_anual": 22995486.49
+  }
